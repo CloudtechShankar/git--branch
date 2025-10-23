@@ -20,4 +20,4 @@ try:
     number = int(input("Enter a number to calculate its factorial: "))
     print(f"The factorial of {number} is {factorial(number)}.")
 except ValueError:
-    print("Please enter a valid integer.")
+    print("Please enter a  invalid integer.")
